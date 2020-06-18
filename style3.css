@@ -1,0 +1,50 @@
+hr
+{
+  padding-bottom: 5px;
+}
+.topic h1
+{
+  margin-top: 30px; 
+}
+p
+{
+  color:grey;
+  padding-bottom: 5px;
+}
+
+.navbar-nav li a
+{
+  float: right;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+.sidebar li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.sidebar li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
